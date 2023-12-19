@@ -10,9 +10,6 @@ function solution(n, k) {
     let drinkMoney = (k - parseInt(n/10)) * 2000;
 
     answer = lambMoney + drinkMoney;
-    
-    console.log(answer);
-    console.log(drinkMoney);
  
     return answer;
 }

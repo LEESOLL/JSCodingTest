@@ -21,9 +21,7 @@ function solution(n) {
         if (n % i === 0) answer += 2;
     }
 
-    console.log(answer);
-
-    return Number.isInteger(Math.sqrt(n))? answer += 1: answer;
+    return Number.isInteger(Math.sqrt(n))? ++answer: answer;
 }
 
 solution(20);

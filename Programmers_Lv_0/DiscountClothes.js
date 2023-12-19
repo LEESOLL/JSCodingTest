@@ -14,8 +14,6 @@ function solution(price) {
         answer = price * 0.95;
     }
 
-    console.log(answer);
-
     return parseInt(answer);
 }
 
