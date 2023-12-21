@@ -7,35 +7,35 @@
 // 가장 마지막에 나오는 n 값 return
 // 1. 시간이 오래걸림
 function solution(n, control) {
-    // 1.
-    // var answer = n;
+  // 1.
+  // var answer = n;
 
-    // for(let i = 0; i < control.length; i++) {
-    //     switch (control.charAt(i)) {
-    //         case 'w':
-    //             answer += 1;
-    //             break;
-    //         case 's':
-    //             answer -= 1;
-    //             break;
-    //         case 'd':
-    //             answer += 10;
-    //             break;
-    //         case 'a':
-    //             answer -= 10;
-    //             break;
-    //     }
-    // }
+  // for(let i = 0; i < control.length; i++) {
+  //     switch (control.charAt(i)) {
+  //         case 'w':
+  //             answer += 1;
+  //             break;
+  //         case 's':
+  //             answer -= 1;
+  //             break;
+  //         case 'd':
+  //             answer += 10;
+  //             break;
+  //         case 'a':
+  //             answer -= 10;
+  //             break;
+  //     }
+  // }
 
-    //2.
-    const operation = {
-        w : (n) => n + 1,
-        s : (n) => n - 1,  
-        d : (n) => n + 10,  
-        a : (n) => n - 10,  
-    }
+  //2.
+  const operation = {
+    w: (n) => n + 1,
+    s: (n) => n - 1,
+    d: (n) => n + 10,
+    a: (n) => n - 10,
+  };
 
-    return control.split('').reduce((acc, cur) => operation[cur](acc), n);
+  return control.split("").reduce((acc, cur) => operation[cur](acc), n);
 }
 
 console.log(solution(0, "wsdawsdassw"));
