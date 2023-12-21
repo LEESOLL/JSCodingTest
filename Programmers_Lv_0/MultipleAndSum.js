@@ -9,9 +9,6 @@ function solution(num_list) {
     sum += item;
   });
 
-  console.log(multiple);
-  console.log(Math.pow(sum, 2));
-
   return multiple > Math.pow(sum, 2) ? 0 : 1;
 }
 
