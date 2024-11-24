@@ -1,0 +1,17 @@
+{
+  "Print to console": {
+    "scope": "javascript,typescript",
+    "prefix": "ic",
+    "body": [
+      "// 인프런 코테강의 0. ",
+      "function solution (input) {",
+      "  let answer;",
+      "",
+      "  return answer;",
+      "}",
+      "",
+      "console.log(solution())"
+    ],
+    "description": "Log output to console"
+  }
+}
