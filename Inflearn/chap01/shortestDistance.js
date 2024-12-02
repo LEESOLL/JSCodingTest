@@ -1,4 +1,4 @@
-// 인프런 코테강의 10. 가장 짧은 문자거리
+// 인프런 코테강의 1-10. 가장 짧은 문자거리
 function solution(str, c) {
   let answer = [];
 

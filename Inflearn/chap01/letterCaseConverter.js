@@ -1,4 +1,4 @@
-// 인프런 코테강의 2. 대소문자 변환
+// 인프런 코테강의 1-2. 대소문자 변환
 function solution(str) {
   let answer = "";
 

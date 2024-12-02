@@ -1,4 +1,4 @@
-// 인프런 코테강의 3.문장 속 단어
+// 인프런 코테강의 1-3.문장 속 단어
 function solution(input) {
   let answer = "";
 

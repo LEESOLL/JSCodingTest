@@ -1,4 +1,4 @@
-// 인프런 코테강의 5.특정 문자 뒤집기
+// 인프런 코테강의 1-5.특정 문자 뒤집기
 function solution(str) {
   let answer = "";
 

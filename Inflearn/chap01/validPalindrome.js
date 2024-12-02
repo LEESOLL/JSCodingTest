@@ -1,4 +1,4 @@
-// 인프런 코테강의 8. 유효한 팰린드롬
+// 인프런 코테강의 1-8. 유효한 팰린드롬
 function solution(input) {
   // 알파벳만, 대소문자 구분 X
   let answer;

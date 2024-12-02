@@ -1,4 +1,4 @@
-// 인프런 코테강의 7. 회문 문자열
+// 인프런 코테강의 1-7. 회문 문자열
 function solution(input) {
   let arr = input.toLowerCase().split("");
 

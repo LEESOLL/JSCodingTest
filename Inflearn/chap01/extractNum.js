@@ -1,4 +1,4 @@
-// 인프런 코테강의 9. 숫자만 추출
+// 인프런 코테강의 1-9. 숫자만 추출
 function solution(input) {
   // 숫자만 추출, 그 순서대로 자연수 만듦
   let extractedNum = input.replace(/[^0-9]/g, "");

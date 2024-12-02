@@ -1,4 +1,4 @@
-// 인프런 코테강의 1. 문자 찾기
+// 인프런 코테강의 1-1. 문자 찾기
 function solution(str, char) {
   var answer = 0;
 

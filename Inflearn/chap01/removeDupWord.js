@@ -1,4 +1,4 @@
-// 인프런 코테강의 6. 중복문자제거
+// 인프런 코테강의 1-6. 중복문자제거
 function solution(str) {
   let answer = [];
 

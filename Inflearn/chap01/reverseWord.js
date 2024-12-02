@@ -1,4 +1,4 @@
-// 인프런 코테강의 4.단어 뒤집기
+// 인프런 코테강의 1-4.단어 뒤집기
 function solution(arr) {
   let answer = [];
 
