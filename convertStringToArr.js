@@ -1,4 +1,4 @@
-function convertStringToNumArr(num, string) {
+function stringToTwoDimensionalNumArr(num, string) {
   let tmpArr = string.split(" ");
 
   let tmpArrToNumArr = tmpArr.map((item) => parseInt(item));
@@ -13,7 +13,15 @@ function convertStringToNumArr(num, string) {
     array[i / num] = tmpArrToNumArr.slice(i, i + num);
   }
 
-  console.log(array);
+  return array;
 }
 
-convertStringToNumArr(5, "2 3 1 7 3 4 1 9 6 8 5 5 2 4 4 6 5 2 6 7 8 4 2 2 2");
+function stringToNumArr(string) {
+  let tmpArr = string.split(" ");
+
+  let tmpArrToNumArr = tmpArr.map((item) => parseInt(item));
+
+  return tmpArrToNumArr;
+}
+
+module.exports = { stringToTwoDimensionalNumArr, stringToNumArr };
