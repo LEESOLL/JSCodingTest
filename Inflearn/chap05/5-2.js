@@ -9,9 +9,7 @@ function solution(input) {
     if (char !== ")") {
       stack.push(char);
     } else {
-      while (true) {
-        if (stack.pop() === "(") break;
-      }
+      while (stack.pop() !== "(");
     }
   }
 
